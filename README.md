@@ -23,7 +23,7 @@ This directory contains three Python files:
 | GND           | GND (pin 6, 9, 14, 20, 25, 30, 34, 39) |
 | OUT           | GPIO 16 (pin 36)                       |
 
-The wiring is shown in `IRSensorConnection.jpg`.
+The wiring is shown in `demonstration/IRSensorConnection.jpg`.
 
 ### RGB LED Routine
 | LED Pin     | Raspberry Pi Pin |
@@ -35,7 +35,7 @@ The wiring is shown in `IRSensorConnection.jpg`.
 
 Each anode must be connected through a 220 ohm resistor.
 
-The wiring is shown in `RGBLEDBreadboardSetup.jpg`.
+The wiring is shown in `demonstration/RGBLEDBreadboardSetup.jpg`.
 
 ## Software Requirements
 - Python 3
@@ -56,7 +56,7 @@ Expected behaviour:
 - Prints "Object removed" when the object is taken away
 - Stops with `Ctrl + C`
 
-Demonstrated in `IRSensorDemonstration.mp4`
+Demonstrated in `demonstration/IRSensorDemonstration.mp4`
 
 ### 2. RGB LED Routine
 
@@ -73,7 +73,7 @@ Expected behaviour:
 - Type `b` -> Blue LED turns on
 - Any other key -> Exit program
 
-Demonstrated in `RGBLEDDemonstration.mp4`
+Demonstrated in `demonstration/RGBLEDDemonstration.mp4`
 
 Relevant functions:
 
